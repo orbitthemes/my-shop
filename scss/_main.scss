@@ -1,0 +1,33 @@
+/*
+Theme Name: Bshop
+Theme URI: https://www.orbitthemes.com
+Author: Sandeep Prasad Bhatt
+Author URI: http://www.sandeepbhatt.com.np
+Description: Bshop - Beautiful Shop Homepage
+Create date: April 10, 2018
+Version: 1.0
+License: Commercial, All rights reserved - orbitthemes.com
+Tags: Responsive Bootstrap 4 template , bootstrap 4 starter template, bootstrap4 template, simple template
+Text Domain: orbitthemes.com
+*/
+
+#main {
+    background: $white;
+    .recommended {
+        .fa-chevron-right {
+            font-size: 0.7rem;
+            margin-left: 5px;
+        }
+    }
+    #carousel-slide {
+        border: 2px solid $light-grey;
+        border-radius: 4px;
+        .carousel-inner {
+            .carousel-item {
+                img {
+                    border-radius: 2px;
+                }
+            }
+        }
+    }
+}
